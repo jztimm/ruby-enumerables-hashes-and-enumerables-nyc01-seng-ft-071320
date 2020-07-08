@@ -7,5 +7,8 @@
 # }
 
 def select_winner(passengers)
-  # add the code snippet here!
+  passengers.each do |suite, names|
+    [suite][names]
+  end
+  
 end
